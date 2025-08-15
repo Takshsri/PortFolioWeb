@@ -152,3 +152,11 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+.nav-profile {
+    width: 150px;      /* fixed size for profile image */
+    height: 150px;
+    border-radius: 50%; /* makes it circular */
+    object-fit: cover;  /* crops without distortion */
+    border: 3px solid #f9f9f9
+}
